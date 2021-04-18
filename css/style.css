@@ -1,0 +1,220 @@
+body {
+  background-color: #f2f2f2;
+}
+
+hr {
+  border-top: 3px dashed red;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Navbar */
+
+@media (max-width: 576px) {
+  .navbar {
+    background-color: black !important;
+  }
+}
+
+.navbar-toggler {
+  background: white;
+}
+
+.temp {
+  min-height: 100vh;
+}
+
+.nav-link{
+  color: #FF9933;
+}
+
+.navbar-custom {
+  color: #ffffff;
+  /* background-color: black; */
+}
+.navbar > h3 {
+  color: white;
+}
+
+.navbar img {
+  margin-top: 5px;
+}
+
+li .active,
+.active {
+  background-color: white;
+  color: black;
+}
+
+nav li {
+  border-radius: 10%;
+  text-align: center;
+}
+/* Navbar ends */
+
+/* Home starts */
+#home {
+  max-width: 100%;
+  min-height: 100vh;
+  color: white;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+#rg{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: -1cm;
+}
+
+.home_title {
+  max-width: 100%;
+  padding-top: 10%;
+  font-size: 70px;
+  color: white;
+}
+.home_topic {
+  max-width: 100%;
+  font-size: 60px;
+  color: white;
+}
+.small_span {
+  max-width: 100%;
+  font-size: 20px;
+}
+/* Home ends */
+
+/* About starts */
+#about {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+ /* font-family: "Amaranth", sans-serif; */
+  background-color :white;
+  border-style: groove;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border-radius: 0.2in;
+  width: 98%;
+}
+/* About ends */
+
+/* Gallery starts */
+#gallery .section-title,
+#about .section-title,
+#speakers .section-title,
+#schedule .section-title,
+.contact-title{
+  color: Turquoise;
+}
+
+#gallery{
+  background-color :white;
+  border-style: groove;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border-radius: 0.1in;
+  width: 75%;
+  margin-left: 12.5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Gallery ends */
+
+/* Speakers Start */
+#speakers{
+  background-color :white;
+  border-style: groove;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border-radius: 0.1in;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#speakers .section-title
+{
+  color:Turquoise;
+}
+
+#speakers .card {
+  margin: 15px;
+}
+/* Speakers end */
+
+/* schedule start */
+#schedule {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color :white;
+  border-style: groove;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border-radius: 0.2in;
+}
+
+#schedule .tab-content h5 {
+  margin-top: 2%;
+}
+.tab-pane {
+  margin-left: 1em;
+}
+
+.schedule-tabs li {
+  margin: 10px;
+}
+/* schedule end */
+
+/* register start */
+#register {
+  background-image: url(../img/reg.png);
+  background-size: cover;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-style: groove;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border-radius: 0.2in;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+#register .section-title{
+  color: Turquoise;
+}
+
+.registration-card {
+  border: 1px solid black;
+  border-radius: 1%;
+  padding: 30px;
+  background-color: white;
+  margin: 25px;
+  margin-bottom: 40px;
+}
+
+.registration-card hr {
+  border-top: 2px dashed #24b8ff;
+}
+
+.registeration-title {
+  color: #24b8ff;
+  width: 300px;
+}
+/* Register end */
+
+/* Contact */
+
+#contact .section-title{
+  color: #062754;
+}
+#contact {
+  padding: 30px;
+  margin-bottom: 50px;
+  background-color :white;
+  border-style: groove;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border-radius: 0.2in;
+}
+/* end of contact */

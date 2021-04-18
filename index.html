@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/schedule.css">
+  <script src="https://kit.fontawesome.com/3efde45f6e.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet" />
+  <link rel="icon" href="./img/ieee.ico" />
+  <title>IEEE | Summer School '21</title>
+</head>
+
+<body>
+  <!-- Nav-Bar -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <a class="navbar-brand h1 ml-3" href="#">
+      <img src="./img/ieee.png" width="100" height="40" class="d-inline-block ml-3" alt="" />
+    </a>
+    <!-- <h3 class="ml-1">Summer School '20</h3> -->
+
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> -->
+    <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <span class="navbar-toggler-icon"></span> -->
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <h3 class="ml-1">Summer School '21</h3>
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item">
+          <a class="nav-link active" href="#home" id="nav-item-1">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about_top" id="nav-item-2">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery_top" id="nav-item-3">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#speakers_top" id="nav-item-4">Speakers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#schedule_top" id="nav-item-5">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#register_top" id="nav-item-6">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact_top" id="nav-item-7">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- <div class="" id="home">
+        <div class="row justify-content-center home_title">
+            <div class="col-6 text-center">
+                <p style="color: white;">Summer School '20</p>
+            </div>
+        </div>
+        <div class="row justify-content-center home_topic">
+            <div class="col-6 center-block text-center">
+                <h1>Deep Learning <div class="small_span">with Specialization in</div> CNN and NLP</h1>
+                <br>
+                <h3>17<sup>th</sup> - 23<sup>rd</sup> June, 2019</h3>
+            </div>
+        </div>
+    </div> -->
+  <div class="text-center container" id="home">
+    <canvas id="c"></canvas>
+    <p class="home_title">Summer School '21</p>
+    <h1>
+      Deep Learning
+      <div class="small_span">with Specialization in</div>
+      CNN and NLP
+    </h1>
+    <br />
+    <h3>X<sup>th</sup> - Y<sup>rd</sup> June, 2021</h3>
+    <br>
+    <h3 id="rg">Earlybird Registration has started...</h3>
+    <form>
+      <script id="pay-IEEE" src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GzF2jj3jJdVfGd" data-button_text="IEEE Member" async> 
+      </script> 
+    </form>
+    <form>
+      <script id="pay-NonIEEE" src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Gzdzm0WgBhwW8V" data-button_text="Non-IEEE Member" async> 
+      </script> 
+    </form>
+  </div>
+
+  <br id="about_top"><br><br>
+  <div class="container" id="about">
+    <div class="row justify-content-center text-center">
+      <h2 class="section-title">About</h2>
+
+      <p>
+        IEEE Student Branch DAIICT aims to provide an interactive platform for
+        students to develop professional and technical abilities. We, at
+        DA-IICT observe a 3 month break during summer from May to July. IEEE
+        SB DAIICT hosts Summer School every year to provide students an
+        opportunity to develop their technical skills and make their summer
+        break productive. It is a <strong>7-day program</strong> wherein the students get a
+        hands-on experience in one of the emerging technical domains followed
+        by a project competition.
+      </p>
+      <p>
+        The domain for Summer School 2020 is <strong>​Deep Learning with a special focus on Convolutional Neural
+          Networks (CNN) and Natural Language Processing (NLP)​</strong>. Deep Learning, along with Machine Learning, is
+        becoming quite a buzzword these days. With the
+        advent of high-performance computing and the availability of huge data, it has become much easier to implement
+        large neural networks and increase the performance of the learning algorithms. We aim to educate the students about this interesting branch of computer science and encourage them to contribute more to the field of deep learning in India.
+      </p>
+    </div>
+  </div>
+
+  <br id="gallery_top"><br><br>
+  <!-- Gallery -->
+  <div class="" id="gallery">
+    <div class="container">
+      <div class="section-title row justify-content-center text-center center">
+        <h1 class="">Gallery</h1>
+      </div>
+      <div class="row  justify-content-center">
+        <div class="col-12 col-md-9">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/1.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/2.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/3.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/4.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/5.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/6-min.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/7-min.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/8-min.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br id="speakers_top"><br><br>
+  <div class="container" id="speakers">
+    <div class="text-center">
+      <h1 class="section-title">Speakers</h1>
+    </div>
+    <div class="d-flex flex-wrap justify-content-around">
+      <div class=" card" style="width: 18rem;">
+        <img src="./img/musk.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Mr Musk</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./img/musk.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Mr Musk</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br id="schedule_top"><br><br>
+  <div class="container" id="schedule">
+    <div class="section-title text-center center">
+      <h2>Schedule</h2>
+      <!-- <hr> -->
+    </div>
+
+    <ul class="nav nav-tabs schedule-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="day1-tab" data-toggle="tab" href="#day1" role="tab" aria-controls="day1"
+          aria-selected="true">Day 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" id="day2-tab" data-toggle="tab" href="#day2" role="tab" aria-controls="day2"
+          aria-selected="true">Day 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" id="day3-tab" data-toggle="tab" href="#day3" role="tab" aria-controls="day3"
+          aria-selected="true">Day 3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" id="day4-tab" data-toggle="tab" href="#day4" role="tab" aria-controls="day4"
+          aria-selected="true">Day 4</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" id="day5-tab" data-toggle="tab" href="#day5" role="tab" aria-controls="day5"
+          aria-selected="true">Day 5</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" id="day6-tab" data-toggle="tab" href="#day6" role="tab" aria-controls="day6"
+          aria-selected="true">Day 6</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" id="day7-tab" data-toggle="tab" href="#day7" role="tab" aria-controls="day7"
+          aria-selected="true">Day 7</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <br>
+      <!--<div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="day1-tab">
+        <h5>Day 1</h5>
+        <i class="fa fa-long-arrow-right"></i> Basics of ML - regression,
+        classification, clustering <br />
+        <i class="fa fa-long-arrow-right"></i> Problem of overfitting and
+        underfitting<br />
+        <i class="fa fa-long-arrow-right"></i> Select suitable features from
+        large data and scaling for missing data points<br />
+      </div>-->
+
+      <div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="day1-tab">
+        <h5 class="mt-0 mb-3 text-dark op-8 font-weight-bold">
+          Day 1
+        </h5>
+        <ul class="list-timeline list-timeline-primary">
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-1-item-1">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">09:00 - 10:00</span> - Basics of ML - regression, classification, clustering</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-1-item-1"> <a target="_blank" href="https://github.com/IEEE-SB-DAIICT/summer-school-20">link</a> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-1-item-2">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">10:00 - 11:00</span> - Problem of overfitting and underfitting</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-1-item-2"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-1-item-3">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">12:00 - 13:00</span> - Select suitable features from large data and scaling for missing data points</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-1-item-3"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-pane fade" id="day2" role="tabpanel" aria-labelledby="day2-tab">
+        <h5 class="mt-0 mb-3 text-dark op-8 font-weight-bold">
+          Day 2
+        </h5>
+        <ul class="list-timeline list-timeline-primary">
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-2-item-1">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">09:00 - 10:00</span> - Detailed view of fully connected networks</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-2-item-1"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-2-item-2">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">10:00 - 11:00</span> - Multi-class classification</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-2-item-2"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-2-item-3">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">12:00 - 13:00</span> - Gradient descent and back propogation</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-2-item-3"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-2-item-4">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">13:00 - 15:00</span> - Layers</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-2-item-4"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-pane fade" id="day3" role="tabpanel" aria-labelledby="day3-tab">
+        <h5 class="mt-0 mb-3 text-dark op-8 font-weight-bold">
+          Day 3
+        </h5>
+        <ul class="list-timeline list-timeline-primary">
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-3-item-1">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">09:00 - 10:00</span> - Activation functions</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-3-item-1"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-3-item-2">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">10:00 - 11:00</span> - Loss functions</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-3-item-2"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-3-item-3">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">12:00 - 13:00</span> - Optimizers</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-3-item-3"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-3-item-4">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">13:00 - 15:00</span> - Visualise internals of CNN layers</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-3-item-4"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-pane fade" id="day4" role="tabpanel" aria-labelledby="day4-tab">
+        <h5 class="mt-0 mb-3 text-dark op-8 font-weight-bold">
+          Day 4
+        </h5>
+        <ul class="list-timeline list-timeline-primary">
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-4-item-1">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">09:00 - 10:00</span> - Convolution for images</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-4-item-1"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-4-item-2">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">10:00 - 11:00</span> - Transfer Learning</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-4-item-2"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-4-item-3">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">12:00 - 13:00</span> - Dropout and Batch</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-4-item-3"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-pane fade" id="day5" role="tabpanel" aria-labelledby="day5-tab">
+        <h5 class="mt-0 mb-3 text-dark op-8 font-weight-bold">
+          Day 5
+        </h5>
+        <ul class="list-timeline list-timeline-primary">
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-5-item-1">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">09:00 - 10:00</span> - Sequential and functional models</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-5-item-1"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-5-item-2">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">10:00 - 11:00</span> - Using GPUs to train faster</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-5-item-2"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-5-item-3">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">12:00 - 13:00</span> - Use cases of Tensorbord</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-5-item-3"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="tab-pane fade" id="day6" role="tabpanel" aria-labelledby="day6-tab">
+        <h5 class="mt-0 mb-3 text-dark op-8 font-weight-bold">
+          Day 6
+        </h5>
+        <ul class="list-timeline list-timeline-primary">
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-6-item-1">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">09:00 - 10:00</span> - RNNs + LSTMs + GRUs</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-6-item-1"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-6-item-2">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">10:00 - 11:00</span> - Basics of embeddings</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-6-item-2"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-6-item-3">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">12:00 - 13:00</span> - Intro with NLTK library</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-6-item-3"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-pane fade" id="day7" role="tabpanel" aria-labelledby="day7-tab">
+        <h5 class="mt-0 mb-3 text-dark op-8 font-weight-bold">
+          Day 7
+        </h5>
+        <ul class="list-timeline list-timeline-primary">
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-7-item-1">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">09:00 - 10:00</span> - Buffer day + some competition</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-7-item-1"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-7-item-2">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">10:00 - 11:00</span> - Sentiment Detection</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-7-item-2"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-7-item-3">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">12:00 - 13:00</span> - IMDB reviews based movie ratings and suggestions</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-7-item-3"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+          <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-7-item-4">
+            <p class="my-0 text-dark flex-fw text-sm text-uppercase"><span class="text-inverse op-8">13:00 - 15:00</span> - Hate speech classifier</p>
+            <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-7-item-4"> Talk: OpenData / <span class="text-primary">Room 31</span> </p>
+          </li>
+        </ul>
+      </div>
+
+
+      <!--<div class="tab-pane fade" id="day2" role="tabpanel" aria-labelledby="day2-tab">
+        <h5>Day 2</h5>
+        <i class="fa fa-long-arrow-right"></i> Detailed view of fully
+        connected networks<br />
+        <i class="fa fa-long-arrow-right"></i> Multi-class classification<br />
+        <i class="fa fa-long-arrow-right"></i> Gradient descent and back
+        propogation<br />
+        <i class="fa fa-long-arrow-right"></i> Layers<br />
+      </div>
+      <div class="tab-pane fade" id="day3" role="tabpanel" aria-labelledby="day3-tab">
+        <h5>Day 3</h5>
+        <i class="fa fa-long-arrow-right"></i> Activation functions<br />
+        <i class="fa fa-long-arrow-right"></i> Loss functions<br />
+        <i class="fa fa-long-arrow-right"></i> Optimizers<br />
+        <i class="fa fa-long-arrow-right"></i> Visualise internals of CNN
+        layers<br />
+      </div>
+      <div class="tab-pane fade" id="day4" role="tabpanel" aria-labelledby="day4-tab">
+        <h5>Day 4</h5>
+        <i class="fa fa-long-arrow-right"></i> Convolution for images<br />
+        <i class="fa fa-long-arrow-right"></i> Transfer Learning<br />
+        <i class="fa fa-long-arrow-right"></i> Dropout and Batch
+        normalisation<br />
+      </div>
+      <div class="tab-pane fade" id="day5" role="tabpanel" aria-labelledby="day5-tab">
+        <h5>Day 5</h5>
+        <i class="fa fa-long-arrow-right"></i> Sequential and functional
+        models<br />
+        <i class="fa fa-long-arrow-right"></i> Using GPUs to train faster<br />
+        <i class="fa fa-long-arrow-right"></i> Use cases of Tensorbord<br />
+      </div>
+      <div class="tab-pane fade" id="day6" role="tabpanel" aria-labelledby="day6-tab">
+        <h5>Day 6</h5>
+        <i class="fa fa-long-arrow-right"></i> RNNs + LSTMs + GRUs<br />
+        <i class="fa fa-long-arrow-right"></i> Basics of embeddings<br />
+        <i class="fa fa-long-arrow-right"></i> Intro with NLTK library<br />
+      </div>
+      <div class="tab-pane fade" id="day7" role="tabpanel" aria-labelledby="day7-tab">
+        <h5>Day 7 - Projects</h5>
+        <i class="fa fa-long-arrow-right"></i> Buffer Day + Some
+        competition<br />
+        <i class="fa fa-long-arrow-right"></i> Sentiment Detection<br />
+        <i class="fa fa-long-arrow-right"></i> IMDB reviews based movie
+        ratings and suggestions<br />
+        <i class="fa fa-long-arrow-right"></i> Hate speech classifier<br />
+      </div>-->
+    </div>
+  </div>
+
+  <br id="register_top"><br><br>
+
+  <div class="register-background"></div>
+  <div class="rounded-lg" style="margin-bottom: 15px;" id="register">
+    <div class="section-title text-center center">
+      <h2>Register</h2>
+    </div>
+
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-around">
+        <div class="registration-card text-center" id="tmp">
+          <div class="registeration-title">
+            <h3>IEEE Member</h3>
+          </div>
+          <hr />
+          <h4>&#8377; x</h4>
+        </div>
+        <div class="registration-card text-center">
+          <div class="registeration-title">
+            <h3>Non-IEEE Member</h3>
+          </div>
+          <hr />
+          <h4>&#8377; x</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br id="contact_top"><br>
+  <div class="border" style="width: 95%; margin-left: 2.5%; margin-top: 30px;" id="contact">
+    <div class="section-title text-center center">
+      <h2 class="contact-title">Contact</h2>
+      <!-- <hr> -->
+      <br />
+
+      <div class="row">
+        <div class="col-md-6">
+          <div id="map" style="width:100%;height:400px;"></div>
+        </div>
+
+        <div class="col-md-6">
+          <h4>Contact Number</h4>
+          <p>
+            Rahil Patel : <a href="+918780002191">+91 878 000 2191</a>
+            <br />
+            Yashvi Shah : <a href="+919725035934">+91 972 503 5934</a>
+          </p>
+          <br />
+          <h4>Find Us At</h4>
+          <p>
+            IEEE ROOM, CLUB HOUSE - 2, DA-IICT, GANDHINAGAR – 382007 GUJARAT,
+            INDIA
+          </p>
+          <br />
+          <h4>Mail Us At</h4>
+          <p>
+            <a href="mailto:summerschool2020.daiict@gmail.com">summerschool2020.daiict@gmail.com</a>
+          </p>
+          <div class="wow fadeInLeft" style="text-align: center">
+            <a href="https://www.facebook.com/ieeesbdaiict" target="_blank"><i
+                class="fab fa-facebook-square"></i></a>&nbsp&nbsp&nbsp
+            <a href="mailto:summerschool2020.daiict@gmail.com"><i class="fa fa-envelope-o"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer  -->
+  <div class="footer wow fadeInDown" id="sitemap">
+    <div class="container row justify-content-center text-center">
+      <div class="col-md-4 footer-left">
+        <h4 class="text-center">Site Map</h4>
+
+        <div class="mid-btm">
+          <p>
+            <a href="https://www.daiict.ac.in" target="_blank">About DAIICT</a>
+            <br /><a href="https://www.ieee.org" target="_blank">About IEEE</a>
+            <!-- <br />
+              <a href="#popup3">Region 10</a> -->
+            <br /><a href="http://ieee.daiict.ac.in/ieee2020/" target="_blank">IEEE SB DAIICT</a>
+            <br />
+            <a href="https://ieeegujaratsection.org" target="_blank">IEEE Gujarat Section</a>
+            <br /><a href="http://ieee.daiict.ac.in/ieee2020/Execomm.html" target="_blank">Branch Execomm</a>
+            <!-- <br /><a href="#popup7">Bylaws</a> -->
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4 footer-left">
+        <h4>DA-IICT</h4>
+        <p></p>
+        <a href="http://www.daiict.ac.in" target="_blank">
+          <img src="./img/dalogo.png" class="img-responsive1" width="50%" height="50%" /></a>
+      </div>
+
+      <div class="col-md-4 footer-right">
+        <h4>Other Links</h4>
+        <p>
+          <a href="http://ieee.daiict.ac.in/ss19/" target="_blank">Summer School 2019</a>
+          <br /><a href="http://ieee.daiict.ac.in/ifest19/" target="_blank">i.Fest 2019</a>
+          <br /><a href="http://ias.daiict.ac.in/" target="_blank">IAS</a>
+          <br /><a href="https://wie.ieee.org" target="_blank">WIE</a>
+          <br /><a href="https://www.mtt.org/" target="_blank">MTT-S</a>
+          <br /><a href="http://ieee.daiict.ac.in/ieee2020/chapters.html" target="_blank">SIG Embedded</a>
+          <br /><a href="http://ieee.daiict.ac.in/ieee2020/chapters.html" target="_blank">SIG Mobile Apps</a>
+          <br /><a href="http://ieee.daiict.ac.in/ieee2020/chapters.html" target="_blank">SIG Machine Intelligence</a>
+        </p>
+
+        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+  <div class="copyright wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".2s">
+    <div class="container">
+      <p>
+        © 2021 IEEE SB DAIICT. All rights reserved | Designed by
+        <a style="color: white;" href="https://github.com/AjaysinhRajput2802" target="_blank">Ajaysinh Rajput</a> and <a style="color: white;" href="https://github.com/akshitajindal" target="_blank">Akshita Jindal</a>, IEEE SB, DA-IICT
+      </p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/scroll_nav_highlight.js"></script>
+  <script src="./js/neural_back.js"></script>
+  <script src="./js/parallax.js"></script>
+
+  <!-- Map -->
+  <script>
+    function myMap() {
+      var mapCanvas = document.getElementById("map");
+      var myCenter = new google.maps.LatLng(23.188546, 72.62972);
+      var mapOptions = { center: myCenter, zoom: 16 };
+      var map = new google.maps.Map(mapCanvas, mapOptions);
+      var icon = {
+        url: "images/dalogo.png",
+        scaledSize: new google.maps.Size(40, 40) // scaled size
+      };
+      var marker = new google.maps.Marker({
+        position: myCenter,
+        icon: icon,
+        animation: google.maps.Animation.BOUNCE
+      });
+      marker.setMap(map);
+    }
+  </script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ-bSzZ8xCvYerg60pxFw6CO0StW1C7R8&callback=myMap"></script>
+</body>
+
+</html>
