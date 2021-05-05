@@ -64,6 +64,7 @@ nav li {
   color: white;
   margin-top: 30px;
   font-size: 40px;
+  margin-bottom: -30px;
 }
 
 #rg{
@@ -91,6 +92,8 @@ nav li {
 
 /* About starts */
 #about {
+  margin-top: 50px;
+  padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 30px;
@@ -119,7 +122,7 @@ nav li {
   border-radius: 0.1in;
   width: 75%;
   margin-left: 12.5%;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 30px;
 }
 
@@ -131,7 +134,7 @@ nav li {
   border-style: groove;
   box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
   border-radius: 0.1in;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 30px;
 }
 
@@ -148,7 +151,7 @@ nav li {
 /* schedule start */
 #schedule {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   background-color :white;
   border-style: groove;
   box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;

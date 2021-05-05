@@ -236,7 +236,7 @@ Data.prototype.draw = function(){
 	
 	ctx.beginPath();
 	ctx.strokeStyle = this.screen.color;
-	ctx.lineWidth = this.size * this.screen.scale;
+	ctx.lineWidth = this.size* 4;
 	ctx.moveTo( this.screen.lastX, this.screen.lastY );
 	ctx.lineTo( this.screen.x, this.screen.y );
 	ctx.stroke();
